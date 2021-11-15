@@ -3,15 +3,15 @@ import Layout from '../components/layout/Layout';
 
 
 
-const Nosotros = () => {
+const Login = () => {
     return ( 
+    <>
         <Layout>
-            <h1>Nosotros</h1>
-            
+            <h1>Logín</h1>
         </Layout>
         
-
-     );
+    </>
+    );
 }
  
-export default Nosotros;
+export default Login;
