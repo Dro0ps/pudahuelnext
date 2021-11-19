@@ -1,5 +1,5 @@
 import App from 'next/app';
-import firebase, { FirebaseContext } from '../firebase';
+import Firebase, { FirebaseContext } from '../firebase';
 import useAtenticacion from '../hooks/useAutenticacion';
 
 const MyApp = props => {
@@ -12,7 +12,7 @@ const MyApp = props => {
     return ( 
     <FirebaseContext.Provider
         value={{
-            firebase,
+            Firebase,
             /* usuario */
         }}
     
